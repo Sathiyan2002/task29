@@ -17,4 +17,8 @@ elif [ "$C == *" ];
 then
         mult=$(($a*$b))
         echo "mult = ${mult}"
+elif [ "$C == /" ];
+then
+        div=$(($a/$b))
+        echo "div = ${div}"
 fi
